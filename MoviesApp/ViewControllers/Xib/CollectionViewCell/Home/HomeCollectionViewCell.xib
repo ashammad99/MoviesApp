@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Bold.ttf">
+            <string>Roboto-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="HomeCollectionViewCell" id="gTV-IL-0wX" customClass="HomeCollectionViewCell" customModule="MoviesApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="248" height="153"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="153"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gGA-xD-rhj">
+                        <rect key="frame" x="0.0" y="0.0" width="248" height="153"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rKK-fX-kWd">
+                                <rect key="frame" x="0.0" y="0.0" width="248" height="153"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" image="bgCover" translatesAutoresizingMaskIntoConstraints="NO" id="c4l-2R-N1E">
+                                        <rect key="frame" x="0.0" y="0.0" width="248" height="135"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                                <real key="value" value="0.16"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                                <size key="value" width="0.0" height="6"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="1Lz-PR-7SS">
+                                        <rect key="frame" x="0.0" y="135" width="248" height="18"/>
+                                        <string key="text">Dolemite Is My
+ Name (2019)</string>
+                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rKK-fX-kWd" firstAttribute="leading" secondItem="gGA-xD-rhj" secondAttribute="leading" id="chV-5d-fhS"/>
+                            <constraint firstItem="rKK-fX-kWd" firstAttribute="top" secondItem="gGA-xD-rhj" secondAttribute="top" id="mCF-9M-5oi"/>
+                            <constraint firstAttribute="bottom" secondItem="rKK-fX-kWd" secondAttribute="bottom" id="nPL-J7-WQy"/>
+                            <constraint firstAttribute="trailing" secondItem="rKK-fX-kWd" secondAttribute="trailing" id="sqw-NM-qXs"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="gGA-xD-rhj" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1Uu-T8-JV5"/>
+                <constraint firstAttribute="bottom" secondItem="gGA-xD-rhj" secondAttribute="bottom" id="1kZ-mr-iUf"/>
+                <constraint firstAttribute="trailing" secondItem="gGA-xD-rhj" secondAttribute="trailing" id="fGj-Wx-xU1"/>
+                <constraint firstItem="gGA-xD-rhj" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="lh3-72-MOZ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="248" height="153"/>
+            <connections>
+                <outlet property="bgCover" destination="c4l-2R-N1E" id="XnE-zP-pTe"/>
+                <outlet property="lblMovieName" destination="1Lz-PR-7SS" id="OPZ-2L-MVM"/>
+            </connections>
+            <point key="canvasLocation" x="-102.89855072463769" y="16.40625"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="bgCover" width="105" height="160"/>
+    </resources>
+</document>

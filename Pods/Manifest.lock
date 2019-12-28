@@ -1,0 +1,88 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - FSPagerView (0.8.3)
+  - FTPopOverMenu (2.0.9)
+  - IQKeyboardManager (6.2.1)
+  - Kingfisher (5.8.3):
+    - Kingfisher/Core (= 5.8.3)
+  - Kingfisher/Core (5.8.3)
+  - MobilePlayer (1.2.0)
+  - PryntTrimmerView (4.0.0)
+  - SteviaLayout (4.6.1)
+  - SVProgressHUD (2.2.4)
+  - SwifterSwift (5.0.0):
+    - SwifterSwift/AppKit (= 5.0.0)
+    - SwifterSwift/CoreGraphics (= 5.0.0)
+    - SwifterSwift/CoreLocation (= 5.0.0)
+    - SwifterSwift/Dispatch (= 5.0.0)
+    - SwifterSwift/Foundation (= 5.0.0)
+    - SwifterSwift/MapKit (= 5.0.0)
+    - SwifterSwift/SpriteKit (= 5.0.0)
+    - SwifterSwift/SwiftStdlib (= 5.0.0)
+    - SwifterSwift/UIKit (= 5.0.0)
+  - SwifterSwift/AppKit (5.0.0)
+  - SwifterSwift/CoreGraphics (5.0.0)
+  - SwifterSwift/CoreLocation (5.0.0)
+  - SwifterSwift/Dispatch (5.0.0)
+  - SwifterSwift/Foundation (5.0.0)
+  - SwifterSwift/MapKit (5.0.0)
+  - SwifterSwift/SpriteKit (5.0.0)
+  - SwifterSwift/SwiftStdlib (5.0.0)
+  - SwifterSwift/UIKit (5.0.0)
+  - SwiftyJSON (5.0.0)
+  - XCDYouTubeKit (2.8.2)
+  - XLPagerTabStrip (9.0.0)
+  - YPImagePicker (4.1.2):
+    - PryntTrimmerView (~> 4.0.0)
+    - SteviaLayout (~> 4.6.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.2)
+  - FSPagerView (= 0.8.3)
+  - FTPopOverMenu (= 2.0.9)
+  - IQKeyboardManager (= 6.2.1)
+  - Kingfisher (= 5.8.3)
+  - MobilePlayer (= 1.2.0)
+  - SVProgressHUD (= 2.2.4)
+  - SwifterSwift (= 5.0.0)
+  - SwiftyJSON (= 5.0.0)
+  - XCDYouTubeKit (~> 2.8)
+  - XLPagerTabStrip (= 9.0.0)
+  - YPImagePicker
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - FSPagerView
+    - FTPopOverMenu
+    - IQKeyboardManager
+    - Kingfisher
+    - MobilePlayer
+    - PryntTrimmerView
+    - SteviaLayout
+    - SVProgressHUD
+    - SwifterSwift
+    - SwiftyJSON
+    - XCDYouTubeKit
+    - XLPagerTabStrip
+    - YPImagePicker
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  FSPagerView: 670405b2f18e2a87fa37f20b00de783e562c25a8
+  FTPopOverMenu: 82782ddb42712fcd7747d072afd8f5e8cb2303eb
+  IQKeyboardManager: 964638372b4a61892cc74fdfa6fd26de8c9464a2
+  Kingfisher: b7e4cb65ff24c264bd2a1284b75b974d907afd94
+  MobilePlayer: 069b13482499f14c25b6ce53f63a91e17975b073
+  PryntTrimmerView: 67e67573ffd4c073f1308effa66aefd0cfa667a0
+  SteviaLayout: 0c83442390c8a369c21f975ffbd812d11532645b
+  SVProgressHUD: 2d23fffab9a1425617e80eaf6eb249403553e120
+  SwifterSwift: 96f90594b370802f01647c2b1229c74a84ffafee
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  XCDYouTubeKit: 79baadb0560673a67c771eba45f83e353fd12c1f
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+  YPImagePicker: bdaa46782668e260fdd9709f19043a9f469fd2ad
+
+PODFILE CHECKSUM: eddc5721b94f1f1526531e0da2562356f16696a6
+
+COCOAPODS: 1.8.4

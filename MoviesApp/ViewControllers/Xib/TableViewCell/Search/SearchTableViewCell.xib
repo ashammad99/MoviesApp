@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Medium.ttf">
+            <string>Roboto-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchTableViewCell" rowHeight="90" id="KGk-i7-Jjw" customClass="SearchTableViewCell" customModule="MoviesApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="362" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="362" height="90"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PZz-Kz-UgB">
+                        <rect key="frame" x="0.0" y="0.0" width="362" height="90"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="0eb-7h-C1H">
+                                <rect key="frame" x="0.0" y="0.0" width="362" height="90"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="test" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aj2-Uj-bzl">
+                                        <rect key="frame" x="0.0" y="0.0" width="362" height="90"/>
+                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Aj2-Uj-bzl" secondAttribute="bottom" id="31Q-a7-NI2"/>
+                                    <constraint firstItem="Aj2-Uj-bzl" firstAttribute="top" secondItem="0eb-7h-C1H" secondAttribute="top" id="H6r-8b-vQH"/>
+                                    <constraint firstItem="Aj2-Uj-bzl" firstAttribute="leading" secondItem="0eb-7h-C1H" secondAttribute="leading" id="Ide-XE-8eh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Aj2-Uj-bzl" secondAttribute="trailing" id="POG-Uz-Wg1"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="0eb-7h-C1H" secondAttribute="trailing" id="9Jn-4N-Jj1"/>
+                            <constraint firstAttribute="bottom" secondItem="0eb-7h-C1H" secondAttribute="bottom" id="FmQ-Ok-EVJ"/>
+                            <constraint firstItem="0eb-7h-C1H" firstAttribute="top" secondItem="PZz-Kz-UgB" secondAttribute="top" id="fj6-uP-doR"/>
+                            <constraint firstItem="0eb-7h-C1H" firstAttribute="leading" secondItem="PZz-Kz-UgB" secondAttribute="leading" id="yqn-t0-BEq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="PZz-Kz-UgB" secondAttribute="trailing" id="CEG-bc-ukR"/>
+                    <constraint firstAttribute="bottom" secondItem="PZz-Kz-UgB" secondAttribute="bottom" id="kHk-7h-yRY"/>
+                    <constraint firstItem="PZz-Kz-UgB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="kZX-Ie-4h1"/>
+                    <constraint firstItem="PZz-Kz-UgB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xmW-h1-JNf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="lblCell" destination="Aj2-Uj-bzl" id="gA9-BO-j7l"/>
+            </connections>
+            <point key="canvasLocation" x="168.11594202898553" y="115.17857142857142"/>
+        </tableViewCell>
+    </objects>
+</document>
